@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+  <title>CSI VESIT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <!--Start of Tawk.to Script-->
+	<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ab9808d4b401e45400e1361/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+    <!--End of Tawk.to Script-->
+
+	<link rel="icon" href="pic/icon.ico">
+	
+  <style>
+  
+ 
+		* {
+			box-sizing: border-box;
+		}
+		<!-- body { -->
+		    <!-- font-family: 'Source Sans Pro', sans-serif; -->
+		    <!-- line-height: 1.5; -->
+		    <!-- color: #323232; -->
+		    <!-- font-size: 15px; -->
+		    <!-- font-weight: 200; -->
+            <!-- background-color: #eee; -->
+		    <!-- text-rendering: optimizeLegibility; -->
+		    <!-- -webkit-font-smoothing: antialiased; -->
+		    <!-- -moz-font-smoothing: antialiased; -->
+		<!-- } -->
+		.heading-title {
+			margin-top: 30px;
+		    margin-bottom: 10px;
+		}
+		.text-center {
+		    text-align: center;
+		}
+		.heading-title h3 {
+		    margin-bottom: 0;
+		    letter-spacing: 2px;
+		    font-weight: normal;
+		}
+		.text-uppercase {
+		    text-transform: uppercase;
+		}
+
+		.team-member {
+		    position: relative;
+		    margin-bottom: 25px;
+		    /*margin-right: 10px;*/
+		    overflow: hidden;
+            border: 2px solid white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+		}
+
+        .team-member:hover {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.3), 0 10px 10px rgba(0,0,0,0.27);
+        }
+
+		.team-member:hover .team-name {
+			left: 0%;
+		}
+		.team-member:hover .team-post {
+			right: 0%;
+		}
+
+
+		
+		.team-member img {
+			width: 100%;
+			display: block; 
+		}
+
+		.team-member .team-name {
+			position: absolute;
+			bottom: 40px;
+			left: -100%;
+			background: black;
+			color: white;
+			padding: 2px 8px;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.team-member .team-post{
+			position: absolute;
+			bottom: 15px;
+			right: -100%;
+			background: black;
+			color: white;
+			padding: 2px 8px;
+			transition: all 0.3s ease-in-out;
+		}
+		
+		
+		h5.team-name {
+		    margin-bottom: 0px;
+		    display: block;
+		    text-transform: uppercase;
+            border-radius: 0 20px 20px 0;
+		}
+		span.team-post {
+		    font-size: 12px;
+		    text-transform: uppercase;
+		    color: #a5a5a5;
+		    letter-spacing: 1px;
+            border-radius: 20px 0 0 20px;
+		}
+		
+        @media all and (max-device-width: 720px){
+            h5 {
+                font-size: 16px;
+            }
+        }
+
+        @media all and (max-device-width: 640px){
+            h5 {
+                font-size: 14px;
+            }
+        }
+
+        @media all and (max-device-width: 320px){
+            h5 {
+                font-size: 10px;
+            }
+        }
+        hr {
+            height: 1px;
+            width: 75%;
+            background-color: blue;
+        }
+	
+  
+  
+  
+  
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  .jumbotron {
+      background-color: #C0C0C0	;
+      color: #fff;
+      padding: 30px 5px;
+      font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #1ef4e9;
+      font-size: 50px;
+  }
+  .logo {
+      color: #1ef4e9;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #1ef4e9;
+  }
+  .carousel-indicators li {
+      border-color: #1ef4e9;
+  }
+  .carousel-indicators li.active {
+      background-color: #1ef4e9;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #1ef4e9; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #1ef4e9;
+      background-color: #fff !important;
+      color: #1ef4e9;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #1ef4e9 !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #1ef4e9;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #C0C0C0	;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #1ef4e9 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #1ef4e9;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">CSI-VESIT</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#council">COUNCIL</a></li>
+		<li><a href="#goal">OUR GOAL</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#winners">WINNERS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>CSI-VESIT</h1> 
+  <p>Student chapter of Computer Society of India</p> 
+  <!-- <form> -->
+    <!-- <div class="input-group"> -->
+      <!-- <input type="email" class="form-control" size="50" placeholder="Email Address" required> -->
+      <!-- <div class="input-group-btn"> -->
+        <!-- <button type="button" class="btn btn-danger">Subscribe</button> -->
+      <!-- </div> -->
+    <!-- </div> -->
+  <!-- </form> -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>    
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <center><img src="pic/IMG-20180303-WA0009.jpg" alt="" width="100%" height="500"></center>
+        <div class="carousel-caption">
+          <h3>Mini Games</h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <center><img src="pic/IMG-20180303-WA0012.jpg" width="100%" height="500"></center>
+        <div class="carousel-caption">
+          <h3>Fun Events</h3>
+          <p></p>
+        </div>
+      </div>
+  
+      <div class="item">
+        <center><img src="pic/IMG-20180304-WA0008.jpg" alt="" width="100%" height="500"></center>
+        <div class="carousel-caption">
+          <h3>PHP Workshop</h3>
+          <p></p>
+        </div>
+      </div>
+
+        <div class="item">
+        <center><img src="pic/IMG-20180304-WA0038.jpg" alt="" width="100%" height="500"></center>
+        <div class="carousel-caption">
+          <h3>Crico-Mania</h3>
+          <p></p>
+        </div>
+      </div>
+
+        <div class="item">
+        <center><img width="100%" height="500" src="pic/IMG-20180321-WA0001.jpg" alt=""></center>
+        <div class="carousel-caption">
+          <h3>Cynosure'17</h3>
+          <p></p>
+        </div>
+      </div>
+
+       <!-- <div class="item"> -->
+        <!-- <center><img width="500" src="pic/icon.ico" alt=""></center> -->
+        <!-- <div class="carousel-caption"> -->
+        <!-- <h3>Computer Society of India</h3> -->
+          <!-- <p>Student Chapter - V.E.S.I.T.</p> -->
+        <!-- </div> -->
+      <!-- </div> -->
+
+      <div class="item">
+        <center><img src="pic/IMG-20180301-WA001234.jpg" alt="" width="100%" height="500"></center>
+        <div class="carousel-caption">
+          <h3>CSI Council 17-18</h3>
+          <p></p>
+        </div>
+      </div>
+	   
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  
+  
+  </div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About CSI-VESIT</h2><br>
+      <h4>Growing in an environment supported by integrity ,a passion of development was always the moto of CSI Vesit, providing various platforms for students in the form of Editor, Technical,Web Editor, Operantional, Public Relational and then binding them together to get a high functional output in terms of productivity ans consistency.</h4><br>
+      <p>CSI-VESIT is a society which has conducted various events throughout the year for the welfare of all students. The society conducts various competitions to test the mettle of the participants in various fields; from uplifting their technical knowledge through Hackathons to checking their management skills and general knowledge through events like Business Quiz and Cricomania. We at CSI-VESIT conduct a plethora of technical workshops like Python, WordPress, PHP, etc for the benefit of the students.</p>
+      <br><a href="#contact" class="btn btn-default btn-lg">Get in Touch</a>
+    </div>
+    <div class="col-sm-4">
+	  <span><img width="350" src="pic/icon.ico"></img></span>
+	</div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Our Values</h2><br>
+      <h4><strong>MOTIVATION:</strong> The support from Seniors was always the driving force in CSI. Sometimes little fights , sometimes little smiles , sometimes frustrated faces , sometimes disappointing eyes ,amidst all this when every other one was seeing us they failed to notice the heart beat sync that CSI developed among us making us closer and closer withe every paasinh day.</h4><br>
+      <p><strong>VISION:</strong>We stand for the welfare of all students and are here to cater to their needs as we aren't just a council but a society which believes that every member and his needs are equally important to us.</p>
+    </div>
+  </div>
+</div>
+
+
+	     	<div class="container">
+				<div class="row">
+					<h2>Facebook Chat and Updates:</h2>
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcsivesit&tabs=%2Cmessages%2Ctimeline%2Cevents&width=1000&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2152841194937058" width="1000" height="500" style="border:none;overflow:hidden" scrolling="yes" frameborder="1" allowTransparency="true"></iframe>
+					<a href="https://www.facebook.com/csivesit/" class="btn btn-main btn-lg">Visit Facebook Page</a>			
+				</div>
+			</div>
+
+
+
+			
+<div id="council" class="container-fluid bg-grey">
+  <div class="container">
+		
+        <div class="heading-title text-center">
+            <h3 class="text-uppercase">BE COUNCIL</h3>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/shantanu.jpeg" alt="team member">
+                    <h5 class="team-name">shantanu shende</h5>
+                    <span class="team-post">chairperson</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/neeraj.jpeg" alt="team member">
+                    <h5 class="team-name">neeraj jethnani</h5>
+                    <span class="team-post">senior treasurer</span>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/yash.jpeg" alt="team member">
+                    <h5 class="team-name">yash chetnani</h5>
+                    <span class="team-post">senior secretary</span>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/sumeet.jpeg" alt="team member">
+                    <h5 class="team-name">sumeet shahani</h5>
+                    <span class="team-post">executive committee</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/rohanm.jpeg" alt="team member">
+                    <h5 class="team-name">rohan mohandas</h5>
+                    <span class="team-post">executive committee</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/juhi.jpeg" alt="team member">
+                    <h5 class="team-name">juhi bhagtani</h5>
+                    <span class="team-post">executive committee</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/mihir.jpeg" alt="team member">
+                    <h5 class="team-name">mihir wagle</h5>
+                    <span class="team-post">executive committee</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/pranay.jpeg" alt="team member">
+                    <h5 class="team-name">pranay mahaldar</h5>
+                    <span class="team-post">executive committee</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/sam.jpeg" alt="team member">
+                    <h5 class="team-name">sam david</h5>
+                    <span class="team-post">executive committee</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/jayesh.jpeg" alt="team member">
+                    <h5 class="team-name">jayesh nagpal</h5>
+                    <span class="team-post">executive committee</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/tanmay.jpeg" alt="team member">
+                    <h5 class="team-name">tanmay rauth</h5>
+                    <span class="team-post">executive committee</span>
+                </div>
+            </div>
+		<div class="heading-title text-center">
+            <h3 class="text-uppercase">TE COUNCIL</h3>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/adarsh.jpeg" alt="team member">
+                    <h5 class="team-name">adarsh shetty</h5>
+                    <span class="team-post">co-chairperson</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/rushikesh.jpeg" alt="team member">
+                    <h5 class="team-name">rushikesh gawande</h5>
+                    <span class="team-post">operations secretary</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/jagrit.jpeg" alt="team member">
+                    <h5 class="team-name">jagrit bhat</h5>
+                    <span class="team-post">managing secretary</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/apeksha.jpeg" alt="team member">
+                    <h5 class="team-name">apeksha yadav</h5>
+                    <span class="team-post">junior treasurer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/anuja.jpeg" alt="team member">
+                    <h5 class="team-name">anuja reejhsinghani</h5>
+                    <span class="team-post">sr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/prerna.jpeg" alt="team member">
+                    <h5 class="team-name">prerna lokwani</h5>
+                    <span class="team-post">sr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/jenika.jpeg" alt="team member">
+                    <h5 class="team-name">jenika dhawan</h5>
+                    <span class="team-post">sr. public relations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/rohan.jpeg" alt="team member">
+                    <h5 class="team-name">rohan keswani</h5>
+                    <span class="team-post">sr. public relations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/rishabh.jpeg" alt="team member">
+                    <h5 class="team-name">rishabh bhatt</h5>
+                    <span class="team-post">sr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/shivani.jpeg" alt="team member">
+                    <h5 class="team-name">shivani singh</h5>
+                    <span class="team-post">sr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/reshma.jpeg" alt="team member">
+                    <h5 class="team-name">reshma sawlani</h5>
+                    <span class="team-post">sr. public relations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/saahil.jpeg" alt="team member">
+                    <h5 class="team-name">saahil hirananadani</h5>
+                    <span class="team-post">sr. public relations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/aakash.jpeg" alt="team member">
+                    <h5 class="team-name">aakash birari</h5>
+                    <span class="team-post">sr. technical officers</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/harsha.jpeg" alt="team member">
+                    <h5 class="team-name">harsha tolani</h5>
+                    <span class="team-post">sr. technical officers</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/sanket.jpeg" alt="team member">
+                    <h5 class="team-name">sanket paratkar</h5>
+                    <span class="team-post">sr. technical officers</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/priyanka.jpeg" alt="team member">
+                    <h5 class="team-name">priyanka bhatia</h5>
+                    <span class="team-post">sr. editor</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/kaushal.jpeg" alt="team member">
+                    <h5 class="team-name">kaushal mhalgi</h5>
+                    <span class="team-post">sr. web editors</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/siddharth.jpeg" alt="team member">
+                    <h5 class="team-name">siddharth dekhane</h5>
+                    <span class="team-post">sr. web editors</span>
+                </div>
+            </div>
+        </div>
+        
+		<div class="heading-title text-center">
+            <h3 class="text-uppercase">SE COUNCIL</h3>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/soham.jpeg" alt="team member">
+                    <h5 class="team-name">soham sapkal</h5>
+                    <span class="team-post">jr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/dhiraj.jpeg" alt="team member">
+                    <h5 class="team-name">dhiraj chavan</h5>
+                    <span class="team-post">jr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/tarun.jpeg" alt="team member">
+                    <h5 class="team-name">tarun dadlani</h5>
+                    <span class="team-post">jr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/sahil.jpeg" alt="team member">
+                    <h5 class="team-name">sahil sadhwani</h5>
+                    <span class="team-post">jr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/abdus.jpeg" alt="team member">
+                    <h5 class="team-name">abdus shaikh</h5>
+                    <span class="team-post">jr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/ajay.jpeg" alt="team member">
+                    <h5 class="team-name">ajay more</h5>
+                    <span class="team-post">jr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/kajol.jpeg" alt="team member">
+                    <h5 class="team-name">kajol chawla</h5>
+                    <span class="team-post">jr. operations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/ariscia.jpeg" alt="team member">
+                    <h5 class="team-name">ariscia mendes</h5>
+                    <span class="team-post">jr. technical officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/manoj.jpeg" alt="team member">
+                    <h5 class="team-name">manoj ochaney</h5>
+                    <span class="team-post">jr. technical officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/ishma.jpeg" alt="team member">
+                    <h5 class="team-name">ishma amin</h5>
+                    <span class="team-post">jr. technical officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/diya.jpeg" alt="team member">
+                    <h5 class="team-name">diya wadhwani</h5>
+                    <span class="team-post">jr. public relations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/richa.jpeg" alt="team member">
+                    <h5 class="team-name">richa jaisinghani</h5>
+                    <span class="team-post">jr. public relations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/mitesh.jpeg" alt="team member">
+                    <h5 class="team-name">mitesh goplani</h5>
+                    <span class="team-post">jr. web editor</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/anushka.jpeg" alt="team member">
+                    <h5 class="team-name">anushka tiwari</h5>
+                    <span class="team-post">jr. web editor</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/juyee.jpeg" alt="team member">
+                    <h5 class="team-name">juyee sabade</h5>
+                    <span class="team-post">jr. public relations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/riya.jpeg" alt="team member">
+                    <h5 class="team-name">riya agrawal</h5>
+                    <span class="team-post">jr. public relations officer</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/abhishek.jpeg" alt="team member">
+                    <h5 class="team-name">abhishek kalgutkar</h5>
+                    <span class="team-post">jr. editor</span>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="team-member">
+                    <img class="img-responsive" src="pic/anupreet.jpeg" alt="team member">
+                    <h5 class="team-name">anupreet bhuyar</h5>
+                    <span class="team-post">jr. editor</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>			
+			
+<!-- Container (Services Section) -->
+<div id="goal" class="container-fluid text-center">
+  <h2>Our Main Goal</h2>
+  <h4>What we believe</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-education logo-small"></span>
+      <h4>Education</h4>
+      <p>Learning to Excellence..</p>
+    </div>
+    
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>JOB DONE</h4>
+      <p>Practice balancing different tasks..</p>
+    </div>
+  
+
+      <div class="col-sm-4">
+      <span class="glyphicon glyphicon-earphone logo-small"></span>
+      <h4>Communication Skills</h4>
+      <p>Improve vocal and presentation skills!..</p>
+    </div>
+  
+  </div>
+  <div class="row slideanim">
+<br><br>
+	
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>CERTIFIED</h4>
+      <p>Certified Workshops..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4 style="color:#303030;">Technical Skills</h4>
+      <p>Develop Strong Technical skills..</p>
+    </div>
+  <div class="col-sm-4">
+      <span class="glyphicon glyphicon-hourglass logo-small"></span>
+      <h4>Time Management</h4>
+      <p>Learn to balance work..</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Portfolio</h2><br>
+  <h4>OUR EVENTS</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="pic/business.jpg" alt="BQ" width="400" height="300">
+        <p><strong>Business Quiz</strong></p>
+        <p>Showcase your Trading Skills</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="pic/cricomania.jpg" alt="Crico-Mania" width="400" height="300">
+        <p><strong>Crico-Mania</strong></p>
+        <p>Where legends meet their makers!</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="pic/langaming.jpg" alt="Lan Gaming" width="400" height="300">
+        <p><strong>LAN Gaming</strong></p>
+        <p>FIFA-CS-NFS-MiniMilitia-RoadRash</p>
+      </div>
+    </div>
+  </div><br>
+  
+  <h4>Our Workshops</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="pic/wordpress.jpg" alt="WordPress" width="400" height="300">
+        <p><strong>Wordpress</strong></p>
+        <p>Learn to build dynamic Websites!</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="pic/php.jpg" alt="PHP" width="400" height="300">
+        <p><strong>PHP and MYSQL</strong></p>
+        <p>Learn basics of PHP and DB</p>
+      </div>
+    </div>
+	<div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="pic/python.jpg" alt="Python" width="400" height="300">
+        <p><strong>Python</strong></p>
+        <p>Learn Python Scripts and Packages</p>
+      </div>
+    </div>
+    <!-- <div class="col-sm-3">  -->
+      <!-- <div class="thumbnail"> -->
+        <!-- <img src="pic/linux.jpg" alt="Linux" width="400" height="300"> -->
+        <!-- <p><strong>Linux</strong></p> -->
+        <!-- <p>Learn about Linux OS and kernel</p> -->
+      <!-- </div> -->
+    <!-- </div> -->
+  </div><br>
+  
+  
+  <h2>What our Members say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+	</ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"Crico Mania was an excellent event conducted by CSI, I personally feel that Crico was the best event ever i have been a part of , although we lost but enjoyment level was terrific.
+!"<br><span>~Sladyn Nunes</span></h4>
+      </div>
+      <div class="item">
+        <h4>"It was great being a part of Lan Gaming event conducted by CSI , Mini milita and Counter strike were undoubtedly some games one should have played."<br><span>~Jay Rajput</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Did not won in Business Quiz but I know next year I will surely win in it."<br><span>~Vignesh Verma</span></h4>
+      </div>
+      <div class="item">
+        <h4>"Worksops really helped me to prepare for comming years WordPress, Php, Linux, Python,etc were all worth it."<br><span>~Piyusha Bauskar</span></h4>
+      </div>
+      <div class="item">
+        <h4>"We could have won easily bass Sachin nikal gaya, cz Sachin sabka baap hai.."<br><span>~Nikhil Dalvi</span></h4>
+      </div>
+	  </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (Winners Section) -->
+<div id="winners" class="container-fluid">
+  <div class="text-center">
+    <h2>WECOME TO HALL OF FAME</h2>
+    <h4>Winners 2017-18</h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Business Quiz</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>1. </strong><b> Bhavika </b>and Team</p>
+          <p><strong>2. </strong><b> Raj </b>and Team</p>
+          <p><strong>3. </strong><b> Abhishek </b>and Team</p>
+        </div>
+        <div class="panel-footer">
+          <!-- <h3>$19</h3> -->
+          <!-- <h4>per month</h4> -->
+          <!-- <button class="btn btn-lg">View Details</button> -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">View Details</button>
+
+		<!-- Modal -->
+		<div id="myModal1" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Buisness Quiz</h4>
+			  </div>
+			  <div class="modal-body">
+				<!-- <p>Some text in the modal.</p> -->
+			  <img src="pic/bq.jpeg" width="100%">
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+		
+		
+		</div>
+      
+	  </div>      
+    </div>     
+	
+<div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Hidden Cipher</h1>
+        </div>
+        <div class="panel-body">
+		  <p><strong>1. </strong><b> Arun </b>and Team</p>
+          <p><strong>2. </strong><b> Chinmay </b>and Team</p>
+          <p><strong>3. </strong><b> Reema </b>and Team</p>
+        </div>
+		<div class="panel-footer">
+          <!-- <h3>$19</h3> -->
+          <!-- <h4>per month</h4> -->
+          <!-- <button class="btn btn-lg">View Details</button> -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4">View Details</button>
+
+		<!-- Modal -->
+		<div id="myModal4" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Hidden Cipher</h4>
+			  </div>
+			  <div class="modal-body">
+				<!-- <p>Some text in the modal.</p> -->
+			  <img src="pic/hidden.jpeg" width="100%">
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+		
+		
+		</div>
+      
+	  </div>      
+    </div>       
+		<div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>CSI Code Knights</h1>
+        </div>
+        <div class="panel-body">
+		  <p><strong>1. </strong><b>Jay Rajput</b></p>
+          <p><strong>2. </strong><b>Sladyn Nunes</b></p>
+          <p><strong>3. </strong><b>Saket Ozarkar</b></p>
+        </div>
+		<div class="panel-footer">
+          <!-- <h3>$19</h3> -->
+          <!-- <h4>per month</h4> -->
+          <!-- <button class="btn btn-lg">View Details</button> -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5">View Details</button>
+
+		<!-- Modal -->
+		<div id="myModal5" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">CSI Code Knights</h4>
+			  </div>
+			  <div class="modal-body">
+				<!-- <p>Some text in the modal.</p> -->
+			  <img src="pic/code.jpeg" width="100%">
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+		
+		
+		</div>
+      
+	  </div>      
+    </div>  
+	
+</div>
+</div>
+<div class="container-fluid">
+<div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Crico-Mania</h1>
+        </div>
+        <div class="panel-body">
+          <h2>Juniors</h2>
+		  <p><strong>1. </strong><b> Dhiraj </b>and Team</p>
+          <p><strong>2. </strong><b> Akash </b>and Team</p>
+          <p><strong>3. </strong><b> Abhishek </b>and Team</p>
+        </div>
+        <div class="panel-body">
+          <h2>Seniors</h2>
+		  <p><strong>1. </strong><b> Bhavik </b>and Team</p>
+          <p><strong>2. </strong><b> Prateek </b>and Team</p>
+          <p><strong>3. </strong><b> Dilip </b>and Team</p>
+        </div>
+		<div class="panel-footer">
+          <!-- <h3>$19</h3> -->
+          <!-- <h4>per month</h4> -->
+          <!-- <button class="btn btn-lg">View Details</button> -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">View Details</button>
+
+		<!-- Modal -->
+		<div id="myModal2" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Crico-Mania</h4>
+			  </div>
+			  <div class="modal-body">
+				<!-- <p>Some text in the modal.</p> -->
+			  <img src="pic/crico.jpeg" width="100%">
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+		
+		
+		</div>
+      
+	  </div>      
+    </div>       
+<div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Lan Gaming</h1>
+        </div>
+        <div class="panel-body">
+          <left><p><strong>1. </strong>FIFA</p>
+          <p><strong>2. </strong>Road Rash</p>
+          <p><strong>3. </strong>Most Wanted</p>
+          <p><strong>4. </strong>Mini Militia</p>
+          <p><strong>5. </strong>CS 1.6</p></left>
+		</div>
+        <div class="panel-footer">
+          <!-- <h3>$19</h3> -->
+          <!-- <h4>per month</h4> -->
+          <!-- <button class="btn btn-lg">View Details</button> -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">View Details</button>
+
+		<!-- Modal -->
+		<div id="myModal3" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">LAN GAMING</h4>
+			  </div>
+			  <div class="modal-body">
+				<!-- <p>Some text in the modal.</p> -->
+			  <img src="pic/lan.jpeg" width="100%">
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			  </div>
+			</div>
+
+		  </div>
+		</div>
+		
+		
+		</div>
+      
+	  </div>      
+    </div>   
+
+   
+  </div>
+
+     
+  </div>
+  
+  
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>495/497, Collector colony, Chembur East, Mumbai-400074</p><br>
+      <p><span class="glyphicon glyphicon-phone"></span><b>Shantanu Shende: +91 9820330567</p></b>
+      <p><span class="glyphicon glyphicon-envelope"></span> shantanu.shende@ves.ac.in</p><br>
+	  <p><span class="glyphicon glyphicon-phone"></span><b>Neeraj Jethnani: +91 9920745441</p></b>
+      <p><span class="glyphicon glyphicon-envelope"></span> neeraj.jethnani@ves.ac.in</p><br>
+	  <p><span class="glyphicon glyphicon-phone"></span><b>Yash Chetnani: +91 8879138543</p></b>
+      <p><span class="glyphicon glyphicon-envelope"></span> yash.chetnani@ves.ac.in</p>
+	</div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="15"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(19.045501, 72.888896);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPFG0VgsPj60S4AcZ98oqPbRdSWHPZ4Zw&callback=myMap"></script>
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>&copy; 2018<a href="https://www.csi-vesit.org" title="Visit csi-vesit">&nbsp;&nbsp;www.csi-vesit.org</a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
